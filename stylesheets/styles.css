@@ -329,6 +329,7 @@ fieldset{
     
         body{
              align-content: center;
+             overflow-x: hidden;
         }
     
         .top-cont{
