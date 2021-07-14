@@ -118,6 +118,7 @@ second section styles
      justify-content: center;
     align-items: center;
      margin-bottom: 70px;
+     background-color: #FFFFFF;
 }
 .bottom-info{
     width: 450px;
@@ -155,11 +156,11 @@ second section styles
       justify-content:space-between;
       align-items: center;
       font-size: 20px;
+      animation: bgc 1.8s linear 0s infinite alternate;
+      animation-play-state: running;
 }
-.bottom-button a:hover {
-    transform: scale(1.15);
-    transition: transform .3s linear;
-}
+
+
 .bottom-cont img{
      width: 567px;
      height: 427px;
@@ -269,6 +270,26 @@ fieldset{
     grid-template-columns: repeat(1,1fr);
 }
 
+/* Third Section */
+
+.bottom-cont{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 0;
+}
+
+.bottom-info{
+    width: 100%;
+    height: auto;
+}
+.bottom-cont img{
+    width: 100%;
+    height: auto;
+}
+.info-gap{
+    padding: 0px 0px;
+}
 
 
 
@@ -276,12 +297,7 @@ fieldset{
 
 
 
-
-
-
-
-
-.bottom-cont, .end-sec, .footer{
+.end-sec, .footer{
     display: none;
 }
 
