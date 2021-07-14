@@ -242,6 +242,8 @@ fieldset{
  ------------------------------------------Media Queries--------------------------------------------- 
 -----------------------------------------------------------------------------------------------------*/
 
+/* top section */
+
 @media only screen and (max-width:688px) {
     .top-cont{
         width: 100%;
@@ -288,17 +290,24 @@ fieldset{
     height: auto;
 }
 .info-gap{
-    padding: 0px 0px;
+    padding: 0px 15px;
 }
 
+/* end section */
 
+.end-sec{
+    flex-direction: column;
+}
+.table{
+    margin-bottom: 30px;
+}
 
+/* footer */
 
-
-
-
-.end-sec, .footer{
-    display: none;
+.footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 }
