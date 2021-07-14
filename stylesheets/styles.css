@@ -250,6 +250,7 @@ fieldset{
 
     body{
          align-content: center;
+         overflow: hidden;
     }
 
     .top-cont{
@@ -257,6 +258,7 @@ fieldset{
         height: auto;
         padding: 15px;
         flex-direction: column;  
+        overflow: hidden;
         align-items:flex-end;      
     }
     .top-info{
@@ -277,6 +279,7 @@ fieldset{
 
 .sec-cont{
     grid-template-columns: repeat(1,1fr);
+    overflow: hidden;
 }
 
 /* Third Section */
@@ -285,6 +288,7 @@ fieldset{
     width: 100%;
     height: auto;
     flex-direction: column;
+    overflow: hidden;
     padding: 0;
 }
 
@@ -304,9 +308,11 @@ fieldset{
 
 .end-sec{
     flex-direction: column;
+    overflow: hidden;
 }
 .table{
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 /* footer */
@@ -314,6 +320,7 @@ fieldset{
 .footer{
     width: 100%;
     height: auto;
+    overflow: hidden;
     margin: auto;
 }
 
@@ -329,11 +336,13 @@ fieldset{
     
         body{
              align-content: center;
-             overflow-x: hidden;
+             overflow: hidden;
+             
         }
     
         .top-cont{
             width: 100%;
+            overflow: hidden;
             height: auto;
             padding: 15px;
             flex-direction: column;  
@@ -360,6 +369,7 @@ fieldset{
     
     .sec-cont{
         grid-template-columns: repeat(2,1fr);
+        overflow: hidden;
         grid-gap: 15px 15px;
     }
     
@@ -387,10 +397,12 @@ fieldset{
     /* end section */
     
     .end-sec{
+        overflow: hidden;
         flex-direction: column;
     }
     .table{
         margin-bottom: 30px;
+        overflow: hidden;
     }
     
     /* footer */
@@ -399,6 +411,7 @@ fieldset{
         width: 100%;
         height: auto;
         margin: auto;
+        overflow: hidden;
     }
     
     }
