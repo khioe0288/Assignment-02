@@ -245,6 +245,11 @@ fieldset{
 /* top section */
 
 @media only screen and (max-width:688px) {
+
+    body{
+         align-content: center;
+    }
+
     .top-cont{
         width: 100%;
         height: auto;
