@@ -246,11 +246,15 @@ fieldset{
 
 @media only screen and (max-width:688px) {
 
+    html{
+        overflow-x: hidden;
+    }
+
 /* top section */
 
     body{
          align-content: center;
-         overflow: hidden;
+         overflow-x: hidden;
     }
 
     .top-cont{
@@ -258,7 +262,7 @@ fieldset{
         height: auto;
         padding: 15px;
         flex-direction: column;  
-        overflow: hidden;
+        overflow-x: hidden;
         align-items:flex-end;      
     }
     .top-info{
@@ -279,7 +283,7 @@ fieldset{
 
 .sec-cont{
     grid-template-columns: repeat(1,1fr);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Third Section */
@@ -288,7 +292,7 @@ fieldset{
     width: 100%;
     height: auto;
     flex-direction: column;
-    overflow: hidden;
+    overflow-x: hidden;
     padding: 0;
 }
 
@@ -308,11 +312,11 @@ fieldset{
 
 .end-sec{
     flex-direction: column;
-    overflow: hidden;
+    
 }
 .table{
     margin-bottom: 30px;
-    overflow: hidden;
+    
 }
 
 /* footer */
@@ -320,7 +324,7 @@ fieldset{
 .footer{
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: auto;
 }
 
@@ -332,17 +336,21 @@ fieldset{
 
 @media only screen and (min-width:689px) and (max-width:992px) {
 
+    html{
+        overflow-x: hidden;
+    }
+
     /* top section */
     
         body{
              align-content: center;
-             overflow: hidden;
+             overflow-x: hidden;
              
         }
     
         .top-cont{
             width: 100%;
-            overflow: hidden;
+            overflow-x: hidden;
             height: auto;
             padding: 15px;
             flex-direction: column;  
@@ -369,7 +377,7 @@ fieldset{
     
     .sec-cont{
         grid-template-columns: repeat(2,1fr);
-        overflow: hidden;
+        overflow-x: hidden;
         grid-gap: 15px 15px;
     }
     
@@ -397,12 +405,12 @@ fieldset{
     /* end section */
     
     .end-sec{
-        overflow: hidden;
+        
         flex-direction: column;
     }
     .table{
         margin-bottom: 30px;
-        overflow: hidden;
+        
     }
     
     /* footer */
@@ -411,7 +419,7 @@ fieldset{
         width: 100%;
         height: auto;
         margin: auto;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     
     }
